@@ -1,0 +1,69 @@
+
+
+body {
+    background-color: #121F45;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, p {
+    color: #FFC906;
+    display: flex;
+    justify-content: center;
+}
+figure {
+    border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 90%;
+  margin: auto;
+  background-color: #CB1E4B;
+}
+
+figcaption{
+    text-align: center;
+
+}
+#image {
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+  }
+
+#championships{
+    color: #CB1E4B;
+    max-width: 30%;
+}
+
+#championships, h2, li, ul{
+    color: #FFC906;
+    text-align: center;
+}
+.no {
+    color: #CB1E4B;
+}
+ul {
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    background-color: #223971;
+    max-width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #FFC906 ;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.main-ul {
+    background-color: #121F45;
+}
+
+a {
+    color: #CB1E4B;
+}

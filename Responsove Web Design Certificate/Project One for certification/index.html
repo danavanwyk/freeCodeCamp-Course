@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title></title> 
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--Heading & Description-->
+    <h1 id="title">FCC HTML & CSS Certification</h1>
+    <p id="description">Thank you for taking the time to review my work. This forms allows you to leave any criticism to my work as well as give advice for improvement.</p>
+    <!--Form Starts here, with client details-->
+    <form id="survey-form">
+      <fieldset>
+        <legend>Please enter your details:</legend>
+        <label id="name-label">Name
+          <input id="name" type=text required placeholder="Full Name"></input></label>
+        <label id="email-label">
+      Email
+      <input id="email" type="email" required placeholder="Email"></input>
+        </label>
+        <label id="number-label">Contact Number
+          <input id="number" type="number" min="3" max="120" placeholder="Age" ></input>
+        </label>
+      </fieldset>
+      <!--Second part of form for client suggestions-->
+      <fieldset>
+        <legend>Pick one</legend>
+        <label>Suggestions<select id="dropdown">
+          <option value="">There can be only One</option>
+          <option value="Bartender">Become a bartender</option>
+          <option value="Sailor">Become a Pirate</option>
+          <option value="Supportive">Keep going</option>
+          <option value="Legend">You are Nailing this</option>
+          <option value="Your Hired">WE WANT YOU!!</option>
+          </select></label>
+      </fieldset>
+      <!--Third part of form radio buttons-->
+      <fieldset>
+        <label>It's Monday(Mysuggestions might be Harsh)<input type="Radio" value="monday" name="comments" checked>
+        </input></label>
+        <label>No coffee, Need Coffee<input type="radio" value="coffee" name="comments"></input></label>
+      </fieldset>
+      <fieldset>
+        <label>Skip to Friday<input type="checkbox"  value="friday"></input></label>
+        <label>Make me coffee<input type="checkbox"  value="coffee"></input></label>
+        <label>The only remedy for your work is wiskey<input type="checkbox"  value="wiskey"></input></label>
+      </fieldset>
+      <fieldset class="text-area">
+        <legend>Please leave positive comments.</legend><textarea></textarea></fieldset>
+        <input id="submit" type="submit" value="Submit"/>
+      
+    </form>
+  </body>
+</html>
